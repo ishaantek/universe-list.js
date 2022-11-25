@@ -1,6 +1,6 @@
 {
   "name": "universe-list.js",
-  "version": "1.5.0",
+  "version": "0.0.1",
   "description": "The NPM package to interact with the Universe List API.",
   "main": "index.js",
   "scripts": {
