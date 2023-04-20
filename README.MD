@@ -47,5 +47,3 @@ Provide a Discord bot ID of a bot that is on [Universe List](https://universe-li
 ```js
 universeList.checkVote("botid", "userid")
 ```
-
-Made with ❤️ by Vital Devs.
