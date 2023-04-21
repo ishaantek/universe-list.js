@@ -249,5 +249,3 @@ If the user has not voted, the response will be an object with the following pro
 
 ```
 
-# Contributing
-If you find a bug or have a suggestion for a new feature, feel free to open an issue or submit a pull request on GitHub. All contributions are welcome!
