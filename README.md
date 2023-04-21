@@ -111,7 +111,7 @@ Returns a Promise that resolves to an object containing information about the sp
   "website": "https://example.com/",
   "github": "https://github.com/example",
   "support": "https://example.com/support"
-}
+   }
 
    ```
 ### Get a server's info
