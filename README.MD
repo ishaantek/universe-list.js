@@ -1,7 +1,7 @@
 # Universe List NPM Package
 The offical Node SDK to interact with [Universe List](https://universe-list.xyz)'s API.
 
-```js
+```
 npm i universe-list.js
 ```
 
