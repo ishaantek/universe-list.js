@@ -89,30 +89,31 @@ Sends a `GET` request to the Universe List API to retrieve information about the
 - `botId` - The ID of the bot to retrieve information for.
 Returns a Promise that resolves to an object containing information about the specified bot. If the request fails, the Promise will be rejected with an error message.
 - Output
-```json
+   ```json
   {
-    id: '123456789',
-    username: 'ExampleBot',
-    discriminator: '0001',
-    avatar: 'https://example.com/avatar.png',
-    prefix: '!',
-    owner: '987654321',
-    ownerTag: 'ExampleUser#0001',
-    tags: ['Fun', 'Utility'],
-    views: 1000,
-    submittedOn: '2022-01-01T00:00:00.000Z',
-    approvedOn: '2022-01-01T00:00:00.000Z',
-    shortDescription: 'A bot that does things!',
-    description: 'This is a longer description of what the bot does.',
-    shards: '1',
-    servers: 100,
-    votes: 50,
-    invite: 'https://example.com/invite',
-    website: 'https://example.com/',
-    github: 'https://github.com/example',
-    support: 'https://example.com/support',
-  }
-```
+  "id": "123456789",
+  "username": "ExampleBot",
+  "discriminator": "0001",
+  "avatar": "https://example.com/avatar.png",
+  "prefix": "!",
+  "owner": "987654321",
+  "ownerTag": "ExampleUser#0001",
+  "tags": ["Fun", "Utility"],
+  "views": 1000,
+  "submittedOn": "2022-01-01T00:00:00.000Z",
+  "approvedOn": "2022-01-01T00:00:00.000Z",
+  "shortDescription": "A bot that does things!",
+  "description": "This is a longer description of what the bot does.",
+  "shards": "1",
+  "servers": 100,
+  "votes": 50,
+  "invite": "https://example.com/invite",
+  "website": "https://example.com/",
+  "github": "https://github.com/example",
+  "support": "https://example.com/support"
+}
+
+   ```
 ### Get a server's info
 Provide a Discord server ID of a server that is on [Universe List](https://universe-list.xyz/servers)
 
