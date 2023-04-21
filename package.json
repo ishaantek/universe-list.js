@@ -1,16 +1,17 @@
 {
   "name": "universe-list.js",
-  "version": "0.0.1",
-  "description": "The NPM package to interact with the Universe List API.",
+  "version": "0.0.2",
+  "description": "The official Node SDK to interact with the Universe List API.",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "keywords": [
     "Universe List",
-    "universe-list.js"
+    "universe-list.js",
+    "dbl"
   ],
-  "author": "The universe botlist team",
+  "author": "Ishaan Garg",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.0"
