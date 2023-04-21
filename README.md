@@ -89,7 +89,7 @@ Sends a `GET` request to the Universe List API to retrieve information about the
 - `botId` - The ID of the bot to retrieve information for.
 Returns a Promise that resolves to an object containing information about the specified bot. If the request fails, the Promise will be rejected with an error message.
 - Output
-  ```json
+```json
   {
     id: '123456789',
     username: 'ExampleBot',
@@ -112,7 +112,7 @@ Returns a Promise that resolves to an object containing information about the sp
     github: 'https://github.com/example',
     support: 'https://example.com/support',
   }
-  ```
+```
 ### Get a server's info
 Provide a Discord server ID of a server that is on [Universe List](https://universe-list.xyz/servers)
 
