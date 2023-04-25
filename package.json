@@ -1,6 +1,6 @@
 {
   "name": "universe-list.js",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "The official Node SDK to interact with the Universe List API.",
   "main": "index.js",
   "scripts": {
