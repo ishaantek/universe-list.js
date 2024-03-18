@@ -1,5 +1,5 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-const baseURL = `https://universe-list.xyz/api`
+const baseURL = `https://universe-list.com/api`
 
 module.exports = {
    postStats: async (client, apiKey, debug) => {

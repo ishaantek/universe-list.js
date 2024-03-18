@@ -1,5 +1,5 @@
 # Universe List NPM Package
-The offical Node SDK to interact with [Universe List](https://universe-list.xyz)'s API.
+The offical Node SDK to interact with [Universe List](https://universe-list.com)'s API.
 
 ```
 npm i universe-list.js
@@ -47,7 +47,7 @@ If you want to log the response message to the console, add `true` as parameter.
 *await postStats(client, API_KEY, true);*
 
 ## GETing bot's info
-Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.xyz).
+Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.com).
 
 ```js
 const botId = '123456789'; // Replace this with the ID of the bot.
@@ -62,7 +62,7 @@ universeList.fetchBot(botId)
 ```
 
 ## GETing server's info
-Provide a Discord server ID of a server that is on [Universe List](https://universe-list.xyz/servers).
+Provide a Discord server ID of a server that is on [Universe List](https://universe-list.com/servers).
 
 ```js
 const serverId = '123456789'; // Replace this with the ID of the server.
@@ -78,7 +78,7 @@ universeList.fetchServer(serverId)
 
 
 ## GETing bots's votes
-Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.xyz).
+Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.com).
 
 ```js
 const botId = '123456789'; // Replace this with the ID of the bot.
@@ -93,7 +93,7 @@ universeList.fetchVotes(botId)
 ```
 
 ## Check Vote from user
-Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.xyz) and a Discord user ID.
+Provide a Discord bot ID of a bot that is on [Universe List](https://universe-list.com) and a Discord user ID.
 
 ```js
 const botId = '123456789'; // Replace this with the ID of the bot.
